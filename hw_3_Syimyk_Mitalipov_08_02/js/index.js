@@ -27,8 +27,7 @@ function countChar(symbol, word) {
     return num
 }
 
-console.log(countChar('d', 'abbccdddd'))
-
+console.log(countChar('s', 'abbccssssssssdddd'))
 
 /// Third exersice
 var products = [
