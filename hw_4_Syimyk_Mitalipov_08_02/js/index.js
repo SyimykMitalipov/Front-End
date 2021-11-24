@@ -51,8 +51,6 @@ let employes = [
     }
 ]
 
-let  s =0;
-
 /// The first exersice
 
 let checkName = employes.filter((letter) => letter.name[0] === 'S')
