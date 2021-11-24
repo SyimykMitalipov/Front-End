@@ -1,4 +1,6 @@
-var bestPeople = [
+
+
+let employes = [
     {
         name: 'Nazira',
         salary: 34600
@@ -49,13 +51,32 @@ var bestPeople = [
     }
 ]
 
-var n = 'hghgjh5'
+/// The first exersice
 
-for (let i = 0; i < n.length; i++) {
+let checkName = employes.filter((letter) => letter.name[0] === 'S')
+console.log(checkName)
 
-    console.log( i + ' '+n[i])
-}
-v
+
+
+
+// The second exersice
+
+const somDollar = employes.map((whoPeople) => {
+    whoPeople.salary = Math.floor(whoPeople.salary / 84)
+    return whoPeople
+})
+console.log(somDollar)
+
+
+// THe threeth exersic
+
+const summSalary = employes.reduce((summ, person) => {
+    return summ + person.salary
+},0)
+
+console.log(summSalary)
+
+
 
 
 
