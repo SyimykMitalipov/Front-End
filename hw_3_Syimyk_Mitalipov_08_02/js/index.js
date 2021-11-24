@@ -1,8 +1,8 @@
 //The first Exersice
 
-function showMinSum() {
-    var argument1 = (prompt('Enter your number'));
-    var argument2 = (prompt('Enter your number'));
+showMinSum = () => {
+    let argument1 = (prompt('Enter your number'));
+    let argument2 = (prompt('Enter your number'));
 
     if (argument1 < argument2) {
         console.log(argument1)
@@ -17,7 +17,7 @@ showMinSum()
 
 
 /// Second exersice
-function countChar(symbol, word) {
+ countChar =  (symbol, word) =>{
     let num = 0
     for (let i = 0; i < word.length; i++) {
         if (symbol === word[i]) {
@@ -30,7 +30,7 @@ function countChar(symbol, word) {
 console.log(countChar('s', 'abbccssssssssdddd'))
 
 /// Third exersice
-var products = [
+let products = [
     {
         productName: 'milk',
         cost: 48
@@ -46,7 +46,7 @@ var products = [
 ]
 console.log(products)
 
-function addProduct(cookies, candies) {
+addProduct= (cookies, candies) =>{
 
     products.push({
             productname: 'cookies',

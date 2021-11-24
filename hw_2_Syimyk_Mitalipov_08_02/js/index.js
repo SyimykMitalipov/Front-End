@@ -1,7 +1,7 @@
 //// The first exersice
 
-var array =  [1232, -132, 356, 2123, 2.5, 23, 12] ;
-for (var i = 0, sum = 0; i < array.length; sum+=array [i++]);
+let array =  [1232, -132, 356, 2123, 2.5, 23, 12] ;
+for (let i = 0, sum = 0; i < array.length; sum+=array [i++]);
 console.log(sum)
 alert(sum)
 /// The second exersirce
@@ -11,7 +11,7 @@ for (let i = 2; i<100; i++)
 
     }
 // /// Третье задание
-var people = [
+let people = [
     {
         name: 'Adilet',
         salary: 23000
@@ -29,8 +29,8 @@ var people = [
         salary: 15000
     }
 ]
-for (var i = 0; i < people.length; i++) {
-    var person = people[i]
+for (let i = 0; i < people.length; i++) {
+    let person = people[i]
     person.salary +- 1000
     // name [3] +- 1000
     if (i===[3])
@@ -38,8 +38,8 @@ for (var i = 0; i < people.length; i++) {
     console.log(person.salary)
 }
 //// The 4-th exersirce
-for (var i = 0; i < people.length; i++){
-    var person = people[i]
+for (let i = 0; i < people.length; i++){
+    let person = people[i]
     if (person.salary <= 20000){
         person.level = 'Junior'
     }else if (person.salary <=50000)
